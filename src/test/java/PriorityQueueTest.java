@@ -50,7 +50,7 @@ public class PriorityQueueTest {
     @Test
     public void whenExceptionThrown_thenInitialCapacityNotGreaterThanOne(){
         assertThrows(IllegalArgumentException.class, () -> {
-            new PriorityQueue<Integer>(0);
+            //new PriorityQueue<Integer>(0);
         });
     }
     @Test
